@@ -19,6 +19,13 @@ function setup() {
   borderR= createSprite(width-50,200,5,height)
   borderU= createSprite(width/2,30,width,5)
   borderD= createSprite(width/2,height-65,width,5)
+  borderD.visible=false
+  borderL.visible=false
+  borderR.visible=false
+  borderU.visible=false
+
+
+
    // ball sprite
    soccerball = createSprite(width/2, height/2-10, 10,10)
    soccerball.addImage(soccerballimage)
